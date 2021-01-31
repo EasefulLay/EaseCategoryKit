@@ -1,5 +1,5 @@
 PODS:
-  - EaseCategorykit (0.1.0)
+  - EaseCategorykit (1.1)
 
 DEPENDENCIES:
   - EaseCategorykit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EaseCategorykit: 07f6e29789bf17ce7b72b3cfd74ceb4cc3c4825a
+  EaseCategorykit: 065c7430f80d8ddc3c9bb7bfedde26f0ff09e864
 
 PODFILE CHECKSUM: f000c3fdf178b97b3210d2e1f837415592533dc8
 

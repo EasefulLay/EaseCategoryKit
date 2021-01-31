@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F6898E1AEE813DBD9444064A68D5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		071E4CA53C838F55B276F9409AF7F304 /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EAE243D7E50C325F03CF68B7A81762 /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BC535DA65CB7E301923E461A98718CC /* Pods-EaseCategorykit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6950096C75922FC21EEE8B0AE6368744 /* Pods-EaseCategorykit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D87656EE77A7F2E9C160F23B59FF77D /* EaseCategorykit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED2FEBD6AA5B015162476E65643A2D0 /* EaseCategorykit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1B3E4D610AF275F8762B9DDBE71478 /* UIView+FFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B39755CDA2DA85046F036F10E4623271 /* UIView+FFFrame.m */; };
+		1772DC55405586AA02777366AAA02A93 /* UIView+FFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF6D4D4479644E41A0C982ED7871699 /* UIView+FFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B462E66CEDD885E1DE413575ACF4590 /* Pods-EaseCategorykit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EA32B7DE7F556067D5400C2DF432D /* Pods-EaseCategorykit_Example-dummy.m */; };
 		21A0243F073735BA80FE6EFFAD1AFF07 /* Pods-EaseCategorykit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F894D1B81CB3B360125832B58F70C8E2 /* Pods-EaseCategorykit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DAFD8C03647B20F39AD571A7E30310A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4DFEB2EF3CF5E511F589E9B5584ED043 /* EaseCategorykit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2B1159B34FF5645F1D5BA00E67E71 /* EaseCategorykit-dummy.m */; };
 		78F2877845DE9863FFE0613135A22368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8DF9D363624A8C8C067C347BEB5C9AB2 /* Pods-EaseCategorykit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D547E2F254E62B997B87D15A71646A /* Pods-EaseCategorykit_Tests-dummy.m */; };
-		BF7C4534D2E0E7506C51EBEE89DE86B6 /* EaseCategorykit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F931490CE553A184B753FBE144A569 /* EaseCategorykit-dummy.m */; };
-		CD86E547318858171542A1371E40D002 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7140B60696953F763B151E232B7FD2C3 /* ReplaceMe.m */; };
-		D9D665083D71D4FB9EC8B7E8E74C3D4A /* EaseCategorykit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D377CEF18540493EDDD26CF40151479D /* EaseCategorykit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E0D0D81671C6C750818F5B3667F2E68 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C856B7FB652A86CA655FA051037CB205 /* ReplaceMe.m */; };
+		90091B2D721FCE2F31858CDFA19AFA7A /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CD7B01D359870559FDBF1B9004DDF /* UILabel+Extension.m */; };
+		A9A615AE0C3C6C9484AAEAD656058A44 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D0D5DB32C221C0CDCA4EE49854AD9 /* NSArray+Log.m */; };
+		BA586CE57FEF792E18B8241123F5E36F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9BCD9856076C033E1B8AD8D00DA9906 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C60288C020E63D79F5C0C81BC6044A03 /* UIButton+Extension.m */; };
+		C9FF5DE1A5D31B6617B40F86DB0401C7 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5657DFA62F3F8CB97B4B67D56DE7DFBD /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1632F622F6E4FEA7212FB38AF66831 /* NSArray+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = EC82F47A8323E85DA9C4A21DD408C136 /* NSArray+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F3E4921A5441F6763E031A218DF465 /* UIButton+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA9BE29A672FA5C8C2976CCD646FE5A /* UIButton+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAAA1AFB2D82EAC76ECA0DE3B8798E68 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A3B2F6B0DF0F5B7A642852651D4925 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0731AA8C8EBC6C293E770DAB93383C07 /* PBXContainerItemProxy */ = {
+		7DAF9130B61D3EEA7ADB2315F080350F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 317B40BC002F6AA26FD260D57CBE4EBE;
 			remoteInfo = "Pods-EaseCategorykit_Example";
 		};
-		C65CF027F60E5CEFAC93DB3ABCC71EB5 /* PBXContainerItemProxy */ = {
+		F792569050DA3A3195976A0E6B024362 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,49 +48,51 @@
 
 /* Begin PBXFileReference section */
 		04D55F05BF5BB3BDF8BB8B98B8AC74E3 /* Pods-EaseCategorykit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseCategorykit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0608AC14AF49B38CD4657E268BA9FF14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		11F663DD4F6624547433BFD07C6132FE /* EaseCategorykit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EaseCategorykit-prefix.pch"; sourceTree = "<group>"; };
-		125A0CEFEF6B1EAD5E3E239CF66E8B6C /* EaseCategorykit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EaseCategorykit.modulemap; sourceTree = "<group>"; };
+		0BF6D4D4479644E41A0C982ED7871699 /* UIView+FFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FFFrame.h"; sourceTree = "<group>"; };
+		0EA9BE29A672FA5C8C2976CCD646FE5A /* UIButton+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		11DC34E70CFF256EF72A509107040106 /* EaseCategorykit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EaseCategorykit-Info.plist"; sourceTree = "<group>"; };
+		15A3B2F6B0DF0F5B7A642852651D4925 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		1ABB65062F15348F0A86DE802F0C92F6 /* Pods_EaseCategorykit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EaseCategorykit_Example.framework; path = "Pods-EaseCategorykit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		289DB9638429A5D8D8FF8B4038A0B272 /* Pods-EaseCategorykit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseCategorykit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A495CF3FDF54D31535B70C027292BE5 /* EaseCategorykit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EaseCategorykit.modulemap; sourceTree = "<group>"; };
 		35CE6465228ED972CE6806B0534386D5 /* Pods-EaseCategorykit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseCategorykit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		40D56F9B714E19DA9DB608B71C23A863 /* Pods-EaseCategorykit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EaseCategorykit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		423D5AB299D3CDAF8493CB8114AF2BE0 /* Pods-EaseCategorykit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseCategorykit_Tests-Info.plist"; sourceTree = "<group>"; };
+		455CD7B01D359870559FDBF1B9004DDF /* UILabel+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		46F8352EDD6196C8B544D6603E87EF0C /* Pods-EaseCategorykit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EaseCategorykit_Example.modulemap"; sourceTree = "<group>"; };
 		5253127414B8373D301469AA09A5033B /* Pods-EaseCategorykit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseCategorykit_Example-Info.plist"; sourceTree = "<group>"; };
+		5657DFA62F3F8CB97B4B67D56DE7DFBD /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		5AFB9B60F2837ABBED0B19B3CF23AE41 /* Pods-EaseCategorykit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EaseCategorykit_Tests.modulemap"; sourceTree = "<group>"; };
-		5B3E57E3818E4B7CF50E9A0ECCA861B5 /* EaseCategorykit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EaseCategorykit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D9EA32B7DE7F556067D5400C2DF432D /* Pods-EaseCategorykit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EaseCategorykit_Example-dummy.m"; sourceTree = "<group>"; };
-		65F931490CE553A184B753FBE144A569 /* EaseCategorykit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EaseCategorykit-dummy.m"; sourceTree = "<group>"; };
+		6467CBF0ED0C9F7B2E8974D6BC22D52F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6950096C75922FC21EEE8B0AE6368744 /* Pods-EaseCategorykit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EaseCategorykit_Example-umbrella.h"; sourceTree = "<group>"; };
 		6FE42F86507993D1136FD864776763A9 /* Pods_EaseCategorykit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EaseCategorykit_Tests.framework; path = "Pods-EaseCategorykit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7140B60696953F763B151E232B7FD2C3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EaseCategorykit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		777522DDE9B814F65DD53003C9AD4F23 /* EaseCategorykit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EaseCategorykit-Info.plist"; sourceTree = "<group>"; };
 		87AA83D95EA3F29E42999709C4125F2F /* Pods-EaseCategorykit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EaseCategorykit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		956E912B52F63A5AC86A4475082F3D97 /* Pods-EaseCategorykit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EaseCategorykit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9AC2B1159B34FF5645F1D5BA00E67E71 /* EaseCategorykit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EaseCategorykit-dummy.m"; sourceTree = "<group>"; };
+		9D034E884176AE5D1F51FF2372E2EFD6 /* EaseCategorykit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EaseCategorykit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A117D708E32B004C4C9D0B00E47AD612 /* Pods-EaseCategorykit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseCategorykit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1A54E8A0EA88D76548FC470910C1C26 /* EaseCategorykit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EaseCategorykit.debug.xcconfig; sourceTree = "<group>"; };
+		B39755CDA2DA85046F036F10E4623271 /* UIView+FFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFFrame.m"; sourceTree = "<group>"; };
 		C1E536E6976823369A22F7FFCD8C8D3B /* Pods-EaseCategorykit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseCategorykit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C53280941EF47088A6D9A8EF5050D718 /* EaseCategorykit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EaseCategorykit.framework; path = EaseCategorykit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D377CEF18540493EDDD26CF40151479D /* EaseCategorykit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EaseCategorykit-umbrella.h"; sourceTree = "<group>"; };
-		D42E6A6297EDA1F9F0669ED36F39B34C /* EaseCategorykit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EaseCategorykit.release.xcconfig; sourceTree = "<group>"; };
+		C60288C020E63D79F5C0C81BC6044A03 /* UIButton+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		C856B7FB652A86CA655FA051037CB205 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EaseCategorykit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		CF65D57770FD72243CF5F0185FF9C381 /* EaseCategorykit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EaseCategorykit-prefix.pch"; sourceTree = "<group>"; };
 		D5334D18A07A68D4C784C5D5D56EDD07 /* Pods-EaseCategorykit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseCategorykit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D80EC63158DE7C8CC9F7D15F57FD649F /* EaseCategorykit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EaseCategorykit.debug.xcconfig; sourceTree = "<group>"; };
+		D6C5467BA3BEE6EE735821E73D0DFBD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6EAE243D7E50C325F03CF68B7A81762 /* UILabel+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		E31D0D5DB32C221C0CDCA4EE49854AD9 /* NSArray+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		E76E4EEECE23E3F9873CA714F85D537F /* EaseCategorykit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EaseCategorykit.release.xcconfig; sourceTree = "<group>"; };
 		E8D547E2F254E62B997B87D15A71646A /* Pods-EaseCategorykit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EaseCategorykit_Tests-dummy.m"; sourceTree = "<group>"; };
+		EC82F47A8323E85DA9C4A21DD408C136 /* NSArray+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		F894D1B81CB3B360125832B58F70C8E2 /* Pods-EaseCategorykit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EaseCategorykit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FD3BC7F5020EA6F21605D8B3FBC94921 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FED2FEBD6AA5B015162476E65643A2D0 /* EaseCategorykit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EaseCategorykit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03C87DB015B88F6CAA333381DB2994ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02F6898E1AEE813DBD9444064A68D5A5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B2C8BA9B9576206FDF13D168A0A13BF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,15 +109,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8DA0CA66C9AF8A2E2CD9A5F3DBE0502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA586CE57FEF792E18B8241123F5E36F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32D589694E70918195A96B8B8AF2A47C /* EaseCategorykit */ = {
+		15897D3140465149DC31BA8F6E3079DB /* EaseCategorykit */ = {
 			isa = PBXGroup;
 			children = (
-				7140B60696953F763B151E232B7FD2C3 /* ReplaceMe.m */,
-				646DBA3472FCADDA1C82B0B3EE4AA2E6 /* Pod */,
-				D1A6DB0207218E8AE41F29757FEDF790 /* Support Files */,
+				C856B7FB652A86CA655FA051037CB205 /* ReplaceMe.m */,
+				66BAAA2F11F3677DE810008983F0C374 /* category */,
+				99A7B9A2C9B20E95B8B34D9371BFFECC /* Pod */,
+				EEBCACFBF2260961E33ABEDC21121A1D /* Support Files */,
 			);
 			name = EaseCategorykit;
 			path = ../..;
@@ -119,14 +140,6 @@
 				6FE42F86507993D1136FD864776763A9 /* Pods_EaseCategorykit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3F52BF6FB86C3CA757BB06D69E4D3CCA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				32D589694E70918195A96B8B8AF2A47C /* EaseCategorykit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4CC083D1730905B2194CC3D47AE9AF73 /* Pods-EaseCategorykit_Tests */ = {
@@ -153,12 +166,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		646DBA3472FCADDA1C82B0B3EE4AA2E6 /* Pod */ = {
+		66BAAA2F11F3677DE810008983F0C374 /* category */ = {
 			isa = PBXGroup;
 			children = (
-				5B3E57E3818E4B7CF50E9A0ECCA861B5 /* EaseCategorykit.podspec */,
-				FD3BC7F5020EA6F21605D8B3FBC94921 /* LICENSE */,
-				0608AC14AF49B38CD4657E268BA9FF14 /* README.md */,
+				EC82F47A8323E85DA9C4A21DD408C136 /* NSArray+Log.h */,
+				E31D0D5DB32C221C0CDCA4EE49854AD9 /* NSArray+Log.m */,
+				0EA9BE29A672FA5C8C2976CCD646FE5A /* UIButton+Extension.h */,
+				C60288C020E63D79F5C0C81BC6044A03 /* UIButton+Extension.m */,
+				5657DFA62F3F8CB97B4B67D56DE7DFBD /* UIColor+Hex.h */,
+				15A3B2F6B0DF0F5B7A642852651D4925 /* UIColor+Hex.m */,
+				D6EAE243D7E50C325F03CF68B7A81762 /* UILabel+Extension.h */,
+				455CD7B01D359870559FDBF1B9004DDF /* UILabel+Extension.m */,
+				0BF6D4D4479644E41A0C982ED7871699 /* UIView+FFFrame.h */,
+				B39755CDA2DA85046F036F10E4623271 /* UIView+FFFrame.m */,
+			);
+			name = category;
+			path = EaseCategorykit/Classes/category;
+			sourceTree = "<group>";
+		};
+		8D0610DAEEE35D82FA3F80E2AA044172 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15897D3140465149DC31BA8F6E3079DB /* EaseCategorykit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		99A7B9A2C9B20E95B8B34D9371BFFECC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D034E884176AE5D1F51FF2372E2EFD6 /* EaseCategorykit.podspec */,
+				6467CBF0ED0C9F7B2E8974D6BC22D52F /* LICENSE */,
+				D6C5467BA3BEE6EE735821E73D0DFBD2 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -193,26 +232,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3F52BF6FB86C3CA757BB06D69E4D3CCA /* Development Pods */,
+				8D0610DAEEE35D82FA3F80E2AA044172 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3B17A37BC02A90DFB92527D73DB5A72B /* Products */,
 				C464AF7845D9CF8E2EC893E6A5E23925 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1A6DB0207218E8AE41F29757FEDF790 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				125A0CEFEF6B1EAD5E3E239CF66E8B6C /* EaseCategorykit.modulemap */,
-				65F931490CE553A184B753FBE144A569 /* EaseCategorykit-dummy.m */,
-				777522DDE9B814F65DD53003C9AD4F23 /* EaseCategorykit-Info.plist */,
-				11F663DD4F6624547433BFD07C6132FE /* EaseCategorykit-prefix.pch */,
-				D377CEF18540493EDDD26CF40151479D /* EaseCategorykit-umbrella.h */,
-				D80EC63158DE7C8CC9F7D15F57FD649F /* EaseCategorykit.debug.xcconfig */,
-				D42E6A6297EDA1F9F0669ED36F39B34C /* EaseCategorykit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EaseCategorykit";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -221,6 +245,21 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEBCACFBF2260961E33ABEDC21121A1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A495CF3FDF54D31535B70C027292BE5 /* EaseCategorykit.modulemap */,
+				9AC2B1159B34FF5645F1D5BA00E67E71 /* EaseCategorykit-dummy.m */,
+				11DC34E70CFF256EF72A509107040106 /* EaseCategorykit-Info.plist */,
+				CF65D57770FD72243CF5F0185FF9C381 /* EaseCategorykit-prefix.pch */,
+				FED2FEBD6AA5B015162476E65643A2D0 /* EaseCategorykit-umbrella.h */,
+				A1A54E8A0EA88D76548FC470910C1C26 /* EaseCategorykit.debug.xcconfig */,
+				E76E4EEECE23E3F9873CA714F85D537F /* EaseCategorykit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EaseCategorykit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,19 +273,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1C0634EDAF9D38E80D4A9178DD1BEB89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D87656EE77A7F2E9C160F23B59FF77D /* EaseCategorykit-umbrella.h in Headers */,
+				CB1632F622F6E4FEA7212FB38AF66831 /* NSArray+Log.h in Headers */,
+				D7F3E4921A5441F6763E031A218DF465 /* UIButton+Extension.h in Headers */,
+				C9FF5DE1A5D31B6617B40F86DB0401C7 /* UIColor+Hex.h in Headers */,
+				071E4CA53C838F55B276F9409AF7F304 /* UILabel+Extension.h in Headers */,
+				1772DC55405586AA02777366AAA02A93 /* UIView+FFFrame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C447064D92FD78A189D458C81B92DEC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0BC535DA65CB7E301923E461A98718CC /* Pods-EaseCategorykit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3C438FF263EBF1294AE558307A0F317 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9D665083D71D4FB9EC8B7E8E74C3D4A /* EaseCategorykit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +309,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6F264A9A414F5F766016F54EE4B63D6B /* PBXTargetDependency */,
+				AE86576FC95D7C03DAD8381FAFA22F5E /* PBXTargetDependency */,
 			);
 			name = "Pods-EaseCategorykit_Example";
 			productName = "Pods-EaseCategorykit_Example";
@@ -274,12 +318,12 @@
 		};
 		9D24F066C9AFD377D0216278FCAF90F7 /* EaseCategorykit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22E33B39101ACC952740DB72EA793D1F /* Build configuration list for PBXNativeTarget "EaseCategorykit" */;
+			buildConfigurationList = 44D971D76885B7C7BCA8C608AC6B6B6E /* Build configuration list for PBXNativeTarget "EaseCategorykit" */;
 			buildPhases = (
-				E3C438FF263EBF1294AE558307A0F317 /* Headers */,
-				B1CBDC3C7BC1EF255F0630CAB654B66E /* Sources */,
-				03C87DB015B88F6CAA333381DB2994ED /* Frameworks */,
-				97E8BA32BE7DA614AAA6A7096D48BD8B /* Resources */,
+				1C0634EDAF9D38E80D4A9178DD1BEB89 /* Headers */,
+				7B2AF9DD0AF4D5E7E32F2C23A4168108 /* Sources */,
+				D8DA0CA66C9AF8A2E2CD9A5F3DBE0502 /* Frameworks */,
+				21E7CD41F7BF79289CE43CC7EFF8ADD2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +346,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				21CF08B4C83747C99E7BCCED793A0A52 /* PBXTargetDependency */,
+				B1FF9F94AC5A052E8A8E80EDDFF8C68A /* PBXTargetDependency */,
 			);
 			name = "Pods-EaseCategorykit_Tests";
 			productName = "Pods-EaseCategorykit_Tests";
@@ -339,14 +383,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		794F2A298681E47F4427578FC95E30A4 /* Resources */ = {
+		21E7CD41F7BF79289CE43CC7EFF8ADD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97E8BA32BE7DA614AAA6A7096D48BD8B /* Resources */ = {
+		794F2A298681E47F4427578FC95E30A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +407,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7B2AF9DD0AF4D5E7E32F2C23A4168108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFEB2EF3CF5E511F589E9B5584ED043 /* EaseCategorykit-dummy.m in Sources */,
+				A9A615AE0C3C6C9484AAEAD656058A44 /* NSArray+Log.m in Sources */,
+				8E0D0D81671C6C750818F5B3667F2E68 /* ReplaceMe.m in Sources */,
+				C9BCD9856076C033E1B8AD8D00DA9906 /* UIButton+Extension.m in Sources */,
+				FAAA1AFB2D82EAC76ECA0DE3B8798E68 /* UIColor+Hex.m in Sources */,
+				90091B2D721FCE2F31858CDFA19AFA7A /* UILabel+Extension.m in Sources */,
+				0E1B3E4D610AF275F8762B9DDBE71478 /* UIView+FFFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		856F0333A049124B1667CCF84F720DF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8DF9D363624A8C8C067C347BEB5C9AB2 /* Pods-EaseCategorykit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1CBDC3C7BC1EF255F0630CAB654B66E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF7C4534D2E0E7506C51EBEE89DE86B6 /* EaseCategorykit-dummy.m in Sources */,
-				CD86E547318858171542A1371E40D002 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +440,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21CF08B4C83747C99E7BCCED793A0A52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EaseCategorykit_Example";
-			target = 317B40BC002F6AA26FD260D57CBE4EBE /* Pods-EaseCategorykit_Example */;
-			targetProxy = 0731AA8C8EBC6C293E770DAB93383C07 /* PBXContainerItemProxy */;
-		};
-		6F264A9A414F5F766016F54EE4B63D6B /* PBXTargetDependency */ = {
+		AE86576FC95D7C03DAD8381FAFA22F5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EaseCategorykit;
 			target = 9D24F066C9AFD377D0216278FCAF90F7 /* EaseCategorykit */;
-			targetProxy = C65CF027F60E5CEFAC93DB3ABCC71EB5 /* PBXContainerItemProxy */;
+			targetProxy = F792569050DA3A3195976A0E6B024362 /* PBXContainerItemProxy */;
+		};
+		B1FF9F94AC5A052E8A8E80EDDFF8C68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EaseCategorykit_Example";
+			target = 317B40BC002F6AA26FD260D57CBE4EBE /* Pods-EaseCategorykit_Example */;
+			targetProxy = 7DAF9130B61D3EEA7ADB2315F080350F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,6 +521,36 @@
 			};
 			name = Debug;
 		};
+		3F639FADA79454CDD2A6F3041F993643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A54E8A0EA88D76548FC470910C1C26 /* EaseCategorykit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EaseCategorykit/EaseCategorykit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EaseCategorykit/EaseCategorykit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EaseCategorykit/EaseCategorykit.modulemap";
+				PRODUCT_MODULE_NAME = EaseCategorykit;
+				PRODUCT_NAME = EaseCategorykit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3FF265CC4F77FEA6256D7E98C71251A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 289DB9638429A5D8D8FF8B4038A0B272 /* Pods-EaseCategorykit_Example.debug.xcconfig */;
@@ -536,9 +615,9 @@
 			};
 			name = Debug;
 		};
-		94D453949E5CD7D96BF61865DD6D5548 /* Release */ = {
+		7C52DE0E0B62C5E787EF1A9083088C60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D42E6A6297EDA1F9F0669ED36F39B34C /* EaseCategorykit.release.xcconfig */;
+			baseConfigurationReference = E76E4EEECE23E3F9873CA714F85D537F /* EaseCategorykit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -695,44 +774,14 @@
 			};
 			name = Release;
 		};
-		F29DB325F80A7078BDB95C0C94EAB666 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D80EC63158DE7C8CC9F7D15F57FD649F /* EaseCategorykit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EaseCategorykit/EaseCategorykit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EaseCategorykit/EaseCategorykit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EaseCategorykit/EaseCategorykit.modulemap";
-				PRODUCT_MODULE_NAME = EaseCategorykit;
-				PRODUCT_NAME = EaseCategorykit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22E33B39101ACC952740DB72EA793D1F /* Build configuration list for PBXNativeTarget "EaseCategorykit" */ = {
+		44D971D76885B7C7BCA8C608AC6B6B6E /* Build configuration list for PBXNativeTarget "EaseCategorykit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F29DB325F80A7078BDB95C0C94EAB666 /* Debug */,
-				94D453949E5CD7D96BF61865DD6D5548 /* Release */,
+				3F639FADA79454CDD2A6F3041F993643 /* Debug */,
+				7C52DE0E0B62C5E787EF1A9083088C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

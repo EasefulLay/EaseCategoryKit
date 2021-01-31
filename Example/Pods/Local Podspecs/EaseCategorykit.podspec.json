@@ -1,9 +1,9 @@
 {
   "name": "EaseCategorykit",
-  "version": "0.1.0",
+  "version": "1.1",
   "summary": "A short description of EaseCategorykit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xiquan563@163.com/EaseCategorykit",
+  "homepage": "https://github.com/EasefulLay/EaseCategoryKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "xiquan563@163.com": "xiquan563@163.com"
   },
   "source": {
-    "git": "https://github.com/xiquan563@163.com/EaseCategorykit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/EasefulLay/EaseCategoryKit.git",
+    "tag": "1.1"
   },
   "platforms": {
     "ios": "9.0"
