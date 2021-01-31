@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'EaseCategorykit_Example' do
+  pod 'EaseCategorykit', :path => '../'
+
+  target 'EaseCategorykit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
