@@ -1,0 +1,16 @@
+PODS:
+  - EaseCategorykit (0.1.0)
+
+DEPENDENCIES:
+  - EaseCategorykit (from `../`)
+
+EXTERNAL SOURCES:
+  EaseCategorykit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EaseCategorykit: 07f6e29789bf17ce7b72b3cfd74ceb4cc3c4825a
+
+PODFILE CHECKSUM: f000c3fdf178b97b3210d2e1f837415592533dc8
+
+COCOAPODS: 1.10.1

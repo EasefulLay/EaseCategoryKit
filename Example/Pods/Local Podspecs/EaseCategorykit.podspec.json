@@ -1,0 +1,22 @@
+{
+  "name": "EaseCategorykit",
+  "version": "0.1.0",
+  "summary": "A short description of EaseCategorykit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiquan563@163.com/EaseCategorykit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiquan563@163.com": "xiquan563@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xiquan563@163.com/EaseCategorykit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "EaseCategorykit/Classes/**/*"
+}

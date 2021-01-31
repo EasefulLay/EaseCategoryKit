@@ -1,0 +1,6 @@
+framework module EaseCategorykit {
+  umbrella header "EaseCategorykit-umbrella.h"
+
+  export *
+  module * { export * }
+}
